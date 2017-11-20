@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/e4072fcd0c.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--- banner -->
+    <header>
+        <div class="row container" id="banner">
+            <div class="col-sm-4" id="banner-contact">
+                <i class="fa fa-phone" aria-hidden="true"></i> Call Us: +123 123 456 7890
+            </div>
+            <div class="col-sm-4" id="sale-alert">
+                SUMMER SALE! Get 10% off your offer with code SUMMER17
+            </div>
+            <div class="col-sm-4" id="login">
+                <i class="fa fa-user" aria-hidden="true"></i> LOGIN | REGISTER
+            </div>
+        </div>
+    </header>
+
+    <!--- navbar -->
+    <nav class="navbar-default navbar-shrink">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-in-collapse" aria-expanded="false"
+                    aria-controls="navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                <div class="navbar-logo page-scroll">
+                    <img id="logo-name" src="images/logo.png" />
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-in-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="">mantra</a></li>
+                    <li><a href="">rock</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">fine</a></li>
+                    <li><a href="">golden</a></li>
+                    <li id="search"><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                    <li id="cart"><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i><br /> 0 items</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--- carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/carousel0.jpg">
+                <div class="carousel-caption">
+                    <h1>get ready for</h1>
+                    <h2>rock collection</h2>
+                    <p>glamorous, unique and beautiful pieces</p>
+                    <a href="">VIEW MORE</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/carousel1.jpg">
+                <div class="carousel-caption">
+                    <h1>get ready for</h1>
+                    <h2>rock collection</h2>
+                    <p>glamorous, unique and beautiful pieces</p>
+                    <a href="">VIEW MORE</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/carousel2.jpg">
+                <div class="carousel-caption">
+                    <h1>get ready for</h1>
+                    <h2>rock collection</h2>
+                    <p>glamorous, unique and beautiful pieces</p>
+                    <a href="">VIEW MORE</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--- weekly specials -->
+    <div class="container flex-container text-center weekly-specials">
+        <h2>weekly specials</h2>
+        <div class="row special-products">
+            <div class="col-sm-2 special-product">
+                <img src="images/special0.jpg">
+                <span class="caption">
+                    <h5 class = "caption-title">Jewelry Guide</h5>
+                    <p>$5.00</p>
+                    <a href = "">VIEW MORE</a>
+                </span>
+            </div>
+            <div class="col-sm-2 special-product">
+                <img src="images/special1.jpg">
+                <span class="caption">
+                    <h5 class = "caption-title">Carved Agate Butterfly Diamond Bracelet</h5>
+                    <p>$1870.00</p>
+                     <a href = "">VIEW MORE</a>
+                </span>
+            </div>
+            <div class="col-sm-2 special-product">
+                <img src="images/special2.jpg">
+                <span class="caption">
+                    <h5 class = "caption-title">Diamond Trinity Ring</h5>
+                    <p>$5200.00</p>
+                     <a href = "">VIEW MORE</a>
+                </span>
+            </div>
+            <div class="col-sm-2 special-product">
+                <img src="images/special3.jpg">
+                <span class="caption">
+                    <h5 class = "caption-title">Pink Opal Boulder Opal Cubic Zirconia</h5>
+                    <p>$2200.00</p>
+                     <a href = "">VIEW MORE</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!--- second span -->
+    <div id="second-span">
+        <img src="images/secondSpan.jpg">
+        <div id="second-span-caption">
+            <h1>miss lovely</h1>
+            <h2>rock collection</h2>
+            <p>incredible pieces for every occasion. find out more about these amazing products.</p>
+            <a href="">VIEW COLLECTION</a>
+        </div>
+    </div>
+
+    <!--- more information footer -->
+    <div class="row container-fluid more-info">
+        <div class="col-sm-3 more-info-col">
+            <h5>keep in touch</h5>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>89 Sky Tower, NY</p>
+            <p><i class="fa fa-phone" aria-hidden="true"></i>+123 123 456 789</p>
+            <p id="contact-methods"><i class="fa fa-envelope" aria-hidden="true"></i>contact@misslovely.com
+                <br />
+                <i class="fa fa-facebook rounded" aria-hidden="true"></i>
+                <i class="fa fa-twitter rounded" aria-hidden="true"></i>
+                <i class="fa fa-instagram rounded" aria-hidden="true"></i>
+                <i class="fa fa-google-plus rounded" aria-hidden="true"></i>
+            </p>
+        </div>
+        <div class="col-sm-3 more-info-col">
+            <h5>information</h5>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></i>Contact</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>About Us</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Ring Size Chart</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Necklace Size Chart</p>
+        </div>
+        <div class="col-sm-3 more-info-col">
+            <h5>my account</h5>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></i>My Account</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>View Chart</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Login</p>
+            <p><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>Register</p>
+        </div>
+        <div class="col-sm-3 more-info-col">
+            <h5 id="newsletter">newsletter sign up</h5>
+            <form>
+                <input placeholder="Email Address">
+                <button>SUBMIT</button>
+                <form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row">
+            <div class="col-sm-4" id="copyright">
+                <p>© 2017 MyersHolum Samples SCA Store. All Rights Reserved.
+                <br />
+                Implemented by MyersHolum.</p>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" id="cards">
+                <img src="images/visa.png">
+                <img src="images/mastercard.png">
+                <img src="images/amex.png">
+                <img src="images/discover.png">
+            </div>
+            </div>
+        </div>
+</body>
+
+</html>
