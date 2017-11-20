@@ -341,7 +341,7 @@ h4 {
 }
 
 .more-info-col {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .more-info-col h5 {
@@ -413,11 +413,29 @@ form button:hover {
 }
 
 .footer {
-    height: 3.5em;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
+    padding: 10px 10%
 }
+
+.footer p {
+    padding: 0;
+    margin-bottom: 3px;
+    font-size: 10px;
+    color: black;
+}
+
+#copyright{
+     text-align: left;
+}
+
+#cards img {
+    height: 2em;
+    width: auto;
+    border-radius: 5px;
+}
+
